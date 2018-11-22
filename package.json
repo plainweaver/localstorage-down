@@ -43,7 +43,7 @@
     "bindings": false
   },
   "scripts": {
-    "test": "npm run jshint && tape tests/*.js",
+    "test": "npm run jshint && tape tests/index.js",
     "test-browser": "npm run jshint && zuul --no-coverage tests/*.js",
     "test-zuul-local": "npm run jshint && zuul --no-coverage --local 9000 tests/*.js",
     "jshint": "jshint -c .jshintrc lib/*.js tests/*.js",
